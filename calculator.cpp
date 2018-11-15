@@ -1,20 +1,11 @@
 #include "calculator.h"
 
-int Calculator::Add (double a, double b)
+int Calculator::Add (int a, int b)
 {
-<<<<<<< HEAD
-  return a + b + 0.5;
-=======
-	return a + b;
->>>>>>> cbcb06d (formatting: use tabs instead of spaces)
+    return a + b;
 }
 
-int Calculator::Sub (double a, double b)
+int Calculator::Mul (double a, double b)
 {
-<<<<<<< HEAD
-  return Add (a, -b);
+    return a * b + 0.5;
 }
-=======
-	return Add (a, -b);
-}
->>>>>>> cbcb06d (formatting: use tabs instead of spaces)
